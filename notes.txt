@@ -1,0 +1,36 @@
+01: 3.3V (50 mA max)
+02: 5V
+06: GND
+
+07: GPIO 4 (GPCLCK0)
+11: GPIO 17
+12: GPIO 18 (PWM)
+13: GPIO 21
+15: GPIO 22
+16: GPIO 23
+18: GPIO 24
+22: GPIO 25
+
+== I2C * 2 == order: g, 5v, sda, scl	
+03: I2C SDA / GPIO 0
+05: I2C SCL / GPIO 1
+
+== UART . order: g, 5v, tx, rx
+08: TX / GPIO 14
+10: RX / GPIO 15
+
+== SPI * 2 Select (g, v, CE1/CE0, mosi, miso, sclk)
+26: SPI CE1_N / GPIO 7
+24: SPI CE0_N / GPIO 8
+21: SPI MISO / GPIO 9
+19: SPI MOSI / GPIO 10
+23: SPI SCLK / GPIO 11
+
+
+
+04: DNC
+09: DNC
+14: DNC
+17: DNC
+20: DNC
+25: DNC
