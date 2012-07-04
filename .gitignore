@@ -1,0 +1,5 @@
+# Eagle temporary files
+*.b#*
+*.s#*
+*.pro
+
