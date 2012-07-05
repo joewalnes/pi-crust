@@ -44,7 +44,7 @@ The toughest part of this design was making it fit inside a Raspberry Pi. The ex
 actually go all the way through the board and it sits approximately 2mm above the Raspberry Pi (very close).
 It's almost as if the board was part of the original board.
 
-Because it sits so close to the Raspberry Pi, care has been taken to ensure that any thru-hole components
+Because it sits so close to the Raspberry Pi, [care has been taken](https://twitter.com/joewalnes/status/220147308359196672/photo/1) to ensure that any thru-hole components
 avoid components on the Raspberry Pi board (so they don't short them out), and to avoid restricting air getting
 to the main ARM processor.
 
