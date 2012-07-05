@@ -3,7 +3,7 @@ Pi Crust
 
 This is a PCB that brings sanity to Raspberry Pi headers.
 
-![Pi Crust PCB Layout](images/pcb.png)
+![Pi Crust PCB Layout](https://github.com/joewalnes/pi-crust/raw/master/images/pcb.png)
 
 ### This project is a work in progress. The board is not finished yet. ###
 
