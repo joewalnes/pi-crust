@@ -3,11 +3,9 @@ Pi Crust
 
 This is a PCB that brings sanity to Raspberry Pi headers.
 
+![Pi Crust PCB Layout](images/pcb.png)
+
 ### This project is a work in progress. The board is not finished yet. ###
-
-
-Background
-----------
 
 The [Raspberry Pi](http://www.raspberrypi.org/) is the new play toy for hackers. But interfacing
 with peripherals is a bit awkward... this board aims to address that.
@@ -16,7 +14,7 @@ with peripherals is a bit awkward... this board aims to address that.
 Features
 --------
 
-*   Really compact - sits *inside* the Pi. If you have a case for your Pi, this board should fit inside it.
+*   Really compact - sits *inside* the surface area of the Pi and adds less than 2mm to the height. If you have a case for your Pi, this board should fit inside it.
 *   Pins are grouped together: GPIO, I2C, SPI, UART and power.
 *   Every pin is clearly labelled.
 *   Connections: 2 x SPI, 2 x I2C, 1 x UART, 8 x GPIO
