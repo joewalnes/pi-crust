@@ -3,6 +3,7 @@
 # Eagle temporary files
 *.b#*
 *.s#*
+*.l#*
 *.pro
 
 export

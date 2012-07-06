@@ -36,6 +36,6 @@ view-gerbers: export/$(PROJECT)-gerbers.zip
 .PHONY: view-gerbers
 
 clean:
-	rm -rf export $(wildcard *.pro) $(wildcard *.s#?) $(wildcard *.b#?)
+	rm -rf export $(wildcard *.pro) $(wildcard *.s#?) $(wildcard *.b#?) $(wildcard *.l#?)
 .PHONY: clean
 
