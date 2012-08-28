@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.02" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1218,14 +1218,14 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="23.9776" y1="26.6192" x2="24.13" y2="26.67" width="0.254" layer="1"/>
 <wire x1="3.81" y1="23.7744" x2="7.8232" y2="23.7744" width="0.254" layer="16"/>
 <wire x1="24.1808" y1="26.6192" x2="23.9776" y2="26.6192" width="0.254" layer="1"/>
-<wire x1="24.2062" y1="24.13" x2="24.1808" y2="26.6192" width="0.254" layer="1"/>
-<wire x1="22.9362" y1="23.6474" x2="24.2062" y2="23.6474" width="0.254" layer="1"/>
-<wire x1="24.2062" y1="23.6474" x2="24.2062" y2="24.13" width="0.254" layer="1"/>
-<wire x1="22.7584" y1="23.6474" x2="22.9362" y2="23.6474" width="0.254" layer="16"/>
-<wire x1="22.7838" y1="24.1808" x2="22.7584" y2="23.6474" width="0.254" layer="16"/>
+<wire x1="24.18458125" y1="24.1948625" x2="24.1808" y2="26.6192" width="0.254" layer="1"/>
+<wire x1="22.9217875" y1="24.187909375" x2="22.901875" y2="24.195115625" width="0.254" layer="1"/>
+<wire x1="22.901875" y1="24.195115625" x2="24.18458125" y2="24.1948625" width="0.254" layer="1"/>
+<wire x1="22.880903125" y1="24.1807" x2="22.9217875" y2="24.187909375" width="0.254" layer="16"/>
+<wire x1="22.7838" y1="24.1808" x2="22.880903125" y2="24.1807" width="0.254" layer="16"/>
 <wire x1="7.8232" y1="24.1808" x2="22.7838" y2="24.1808" width="0.254" layer="16"/>
 <wire x1="7.8232" y1="23.7744" x2="7.8232" y2="24.1808" width="0.254" layer="16"/>
-<via x="22.9362" y="23.6474" extent="1-16" drill="0.8" diameter="1.4224"/>
+<via x="22.9217875" y="24.187909375" extent="1-16" drill="0.8" diameter="1.4224"/>
 </signal>
 <signal name="3V3">
 <contactref element="JP4" pad="1"/>
