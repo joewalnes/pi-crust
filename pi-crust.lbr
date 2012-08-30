@@ -14,7 +14,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -43,7 +43,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -138,32 +138,32 @@
 <wire x1="16.51" y1="1.905" x2="16.51" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="15.875" y1="2.54" x2="16.51" y2="1.905" width="0.1524" layer="21"/>
 <wire x1="16.51" y1="-1.905" x2="15.875" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="-15.24" y="-1.27" drill="1.2" diameter="2.1844" shape="square"/>
-<pad name="3" x="-12.7" y="-1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="5" x="-10.16" y="-1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="7" x="-7.62" y="-1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="9" x="-5.08" y="-1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="11" x="-2.54" y="-1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="2" x="-15.24" y="1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="4" x="-12.7" y="1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="6" x="-10.16" y="1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="8" x="-7.62" y="1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="10" x="-5.08" y="1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="12" x="-2.54" y="1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="13" x="0" y="-1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="14" x="0" y="1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="15" x="2.54" y="-1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="17" x="5.08" y="-1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="19" x="7.62" y="-1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="21" x="10.16" y="-1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="23" x="12.7" y="-1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="25" x="15.24" y="-1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="16" x="2.54" y="1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="18" x="5.08" y="1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="20" x="7.62" y="1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="22" x="10.16" y="1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="24" x="12.7" y="1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
-<pad name="26" x="15.24" y="1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
+<pad name="1" x="-15.24" y="-1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="3" x="-12.7" y="-1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="5" x="-10.16" y="-1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="7" x="-7.62" y="-1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="9" x="-5.08" y="-1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="11" x="-2.54" y="-1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="2" x="-15.24" y="1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="4" x="-12.7" y="1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="6" x="-10.16" y="1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="8" x="-7.62" y="1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="10" x="-5.08" y="1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="12" x="-2.54" y="1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="13" x="0" y="-1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="14" x="0" y="1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="15" x="2.54" y="-1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="17" x="5.08" y="-1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="19" x="7.62" y="-1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="21" x="10.16" y="-1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="23" x="12.7" y="-1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="25" x="15.24" y="-1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="16" x="2.54" y="1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="18" x="5.08" y="1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="20" x="7.62" y="1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="22" x="10.16" y="1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="24" x="12.7" y="1.27" drill="1.2" diameter="1.8796" shape="square"/>
+<pad name="26" x="15.24" y="1.27" drill="1.2" diameter="1.8796" shape="square"/>
 <text x="-16.51" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="7.62" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-12.954" y1="-1.524" x2="-12.446" y2="-1.016" layer="51"/>
@@ -192,6 +192,7 @@
 <rectangle x1="9.906" y1="1.016" x2="10.414" y2="1.524" layer="51"/>
 <rectangle x1="12.446" y1="1.016" x2="12.954" y2="1.524" layer="51"/>
 <rectangle x1="14.986" y1="1.016" x2="15.494" y2="1.524" layer="51"/>
+<circle x="-16.48410625" y="-2.47591875" radius="0.13883125" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
