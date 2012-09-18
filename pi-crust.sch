@@ -68,6 +68,8 @@
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
@@ -78,6 +80,22 @@
 <layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
 <layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
 <layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
@@ -1146,6 +1164,122 @@ Standard 8.5x11 US Letter frame</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="E-test-solutions (5)">
+<packages>
+<package name="MDF7-26D-2.54DSA">
+<wire x1="-16.5" y1="5" x2="16.5" y2="5" width="0.127" layer="21"/>
+<wire x1="16.5" y1="5" x2="16.5" y2="-5" width="0.127" layer="21"/>
+<wire x1="16.5" y1="-5" x2="-16.5" y2="-5" width="0.127" layer="21"/>
+<wire x1="-16.5" y1="-5" x2="-16.5" y2="5" width="0.127" layer="21"/>
+<pad name="P$1" x="-15.25" y="4.27" drill="1"/>
+<pad name="P$2" x="-12.71" y="4.27" drill="1"/>
+<pad name="P$3" x="-10.17" y="4.27" drill="1"/>
+<pad name="P$4" x="-7.63" y="4.27" drill="1"/>
+<pad name="P$5" x="-5.09" y="4.27" drill="1"/>
+<pad name="P$6" x="-2.55" y="4.27" drill="1"/>
+<pad name="P$7" x="-0.01" y="4.27" drill="1"/>
+<pad name="P$8" x="2.53" y="4.27" drill="1"/>
+<pad name="P$9" x="5.07" y="4.27" drill="1"/>
+<pad name="P$10" x="7.61" y="4.27" drill="1"/>
+<pad name="P$11" x="10.15" y="4.27" drill="1"/>
+<pad name="P$12" x="12.69" y="4.27" drill="1"/>
+<pad name="P$13" x="15.23" y="4.27" drill="1"/>
+<pad name="P$14" x="-15.25" y="-4.27" drill="1"/>
+<pad name="P$15" x="-12.71" y="-4.27" drill="1"/>
+<pad name="P$16" x="-10.17" y="-4.27" drill="1"/>
+<pad name="P$17" x="-7.63" y="-4.27" drill="1"/>
+<pad name="P$18" x="-5.09" y="-4.27" drill="1"/>
+<pad name="P$19" x="-2.55" y="-4.27" drill="1"/>
+<pad name="P$20" x="-0.01" y="-4.27" drill="1"/>
+<pad name="P$21" x="2.53" y="-4.27" drill="1"/>
+<pad name="P$22" x="5.07" y="-4.27" drill="1"/>
+<pad name="P$23" x="7.61" y="-4.27" drill="1"/>
+<pad name="P$24" x="10.15" y="-4.27" drill="1"/>
+<pad name="P$25" x="12.69" y="-4.27" drill="1"/>
+<pad name="P$26" x="15.23" y="-4.27" drill="1"/>
+<text x="-16" y="5.4" size="1.27" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-16.3" y="-6.6" size="1.27" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MDF7-26D-2.54DSA">
+<wire x1="-5.08" y1="-17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-17.78" x2="5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<text x="-2.794" y="19.05" size="1.27" layer="95" font="vector" ratio="20">&gt;NAME</text>
+<text x="-3.302" y="-19.812" size="1.27" layer="96" font="vector" ratio="20">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="15.24" length="middle"/>
+<pin name="2" x="-10.16" y="12.7" length="middle"/>
+<pin name="3" x="-10.16" y="10.16" length="middle"/>
+<pin name="4" x="-10.16" y="7.62" length="middle"/>
+<pin name="5" x="-10.16" y="5.08" length="middle"/>
+<pin name="6" x="-10.16" y="2.54" length="middle"/>
+<pin name="7" x="-10.16" y="0" length="middle"/>
+<pin name="8" x="-10.16" y="-2.54" length="middle"/>
+<pin name="9" x="-10.16" y="-5.08" length="middle"/>
+<pin name="10" x="-10.16" y="-7.62" length="middle"/>
+<pin name="11" x="-10.16" y="-10.16" length="middle"/>
+<pin name="12" x="-10.16" y="-12.7" length="middle"/>
+<pin name="13" x="-10.16" y="-15.24" length="middle"/>
+<pin name="14" x="10.16" y="15.24" length="middle" rot="R180"/>
+<pin name="15" x="10.16" y="12.7" length="middle" rot="R180"/>
+<pin name="16" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="17" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="18" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="19" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="20" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="21" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="22" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="23" x="10.16" y="-7.62" length="middle" rot="R180"/>
+<pin name="24" x="10.16" y="-10.16" length="middle" rot="R180"/>
+<pin name="25" x="10.16" y="-12.7" length="middle" rot="R180"/>
+<pin name="26" x="10.16" y="-15.24" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MDF7-26D-2.54DSA">
+<gates>
+<gate name="G$1" symbol="MDF7-26D-2.54DSA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MDF7-26D-2.54DSA">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="10" pad="P$10"/>
+<connect gate="G$1" pin="11" pad="P$11"/>
+<connect gate="G$1" pin="12" pad="P$12"/>
+<connect gate="G$1" pin="13" pad="P$13"/>
+<connect gate="G$1" pin="14" pad="P$14"/>
+<connect gate="G$1" pin="15" pad="P$15"/>
+<connect gate="G$1" pin="16" pad="P$16"/>
+<connect gate="G$1" pin="17" pad="P$17"/>
+<connect gate="G$1" pin="18" pad="P$18"/>
+<connect gate="G$1" pin="19" pad="P$19"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="20" pad="P$20"/>
+<connect gate="G$1" pin="21" pad="P$21"/>
+<connect gate="G$1" pin="22" pad="P$22"/>
+<connect gate="G$1" pin="23" pad="P$23"/>
+<connect gate="G$1" pin="24" pad="P$24"/>
+<connect gate="G$1" pin="25" pad="P$25"/>
+<connect gate="G$1" pin="26" pad="P$26"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+<connect gate="G$1" pin="7" pad="P$7"/>
+<connect gate="G$1" pin="8" pad="P$8"/>
+<connect gate="G$1" pin="9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1167,6 +1301,7 @@ Standard 8.5x11 US Letter frame</description>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X3" device="" value="5V"/>
 <part name="JP4" library="pinhead" deviceset="PINHD-1X1" device="" value="3V3"/>
 <part name="FRAME1" library="SparkFun" deviceset="FRAME-LETTER" device=""/>
+<part name="U$1" library="E-test-solutions (5)" deviceset="MDF7-26D-2.54DSA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1190,6 +1325,7 @@ Standard 8.5x11 US Letter frame</description>
 <instance part="JP4" gate="G$1" x="111.76" y="81.28"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
+<instance part="U$1" gate="G$1" x="40.64" y="58.42"/>
 </instances>
 <busses>
 </busses>
@@ -1205,6 +1341,11 @@ Standard 8.5x11 US Letter frame</description>
 <label x="17.78" y="114.3" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="7"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="4"/>
+<wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
+<label x="17.78" y="66.04" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO_17" class="0">
 <segment>
@@ -1216,6 +1357,11 @@ Standard 8.5x11 US Letter frame</description>
 <wire x1="33.02" y1="109.22" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
 <label x="17.78" y="109.22" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="11"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="6"/>
+<wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
+<label x="17.78" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO_18" class="0">
@@ -1229,6 +1375,11 @@ Standard 8.5x11 US Letter frame</description>
 <label x="55.88" y="109.22" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="12"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="19"/>
+<wire x1="50.8" y1="60.96" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
+<label x="58.42" y="60.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO_21" class="0">
 <segment>
@@ -1240,6 +1391,11 @@ Standard 8.5x11 US Letter frame</description>
 <wire x1="33.02" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
 <label x="17.78" y="106.68" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="13"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="7"/>
+<wire x1="30.48" y1="58.42" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
+<label x="17.78" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO_22" class="0">
@@ -1253,6 +1409,11 @@ Standard 8.5x11 US Letter frame</description>
 <label x="17.78" y="104.14" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="15"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="8"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<label x="17.78" y="55.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO_23" class="0">
 <segment>
@@ -1264,6 +1425,11 @@ Standard 8.5x11 US Letter frame</description>
 <wire x1="48.26" y1="104.14" x2="53.34" y2="104.14" width="0.1524" layer="91"/>
 <label x="55.88" y="104.14" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="16"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="21"/>
+<wire x1="50.8" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
+<label x="58.42" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO_24" class="0">
@@ -1277,6 +1443,11 @@ Standard 8.5x11 US Letter frame</description>
 <label x="55.88" y="101.6" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="18"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="22"/>
+<wire x1="50.8" y1="53.34" x2="55.88" y2="53.34" width="0.1524" layer="91"/>
+<label x="58.42" y="53.34" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO_25" class="0">
 <segment>
@@ -1288,6 +1459,11 @@ Standard 8.5x11 US Letter frame</description>
 <wire x1="48.26" y1="96.52" x2="53.34" y2="96.52" width="0.1524" layer="91"/>
 <label x="55.88" y="96.52" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="22"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="24"/>
+<wire x1="50.8" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
+<label x="58.42" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1346,6 +1522,11 @@ Standard 8.5x11 US Letter frame</description>
 <label x="55.88" y="116.84" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="6"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="16"/>
+<wire x1="50.8" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
+<label x="58.42" y="68.58" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
@@ -1393,6 +1574,11 @@ Standard 8.5x11 US Letter frame</description>
 <label x="55.88" y="121.92" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="14"/>
+<wire x1="50.8" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
+<label x="58.42" y="73.66" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="UART_TX" class="0">
 <segment>
@@ -1404,6 +1590,11 @@ Standard 8.5x11 US Letter frame</description>
 <wire x1="48.26" y1="114.3" x2="53.34" y2="114.3" width="0.1524" layer="91"/>
 <label x="55.88" y="114.3" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="8"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="17"/>
+<wire x1="50.8" y1="66.04" x2="55.88" y2="66.04" width="0.1524" layer="91"/>
+<label x="58.42" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UART_RX" class="0">
@@ -1417,6 +1608,11 @@ Standard 8.5x11 US Letter frame</description>
 <label x="55.88" y="111.76" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="10"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="18"/>
+<wire x1="50.8" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
+<label x="58.42" y="63.5" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SPI_CE_1" class="0">
 <segment>
@@ -1428,6 +1624,11 @@ Standard 8.5x11 US Letter frame</description>
 <wire x1="48.26" y1="91.44" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
 <label x="55.88" y="91.44" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="26"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="26"/>
+<wire x1="50.8" y1="43.18" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
+<label x="58.42" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI_MOSI" class="0">
@@ -1446,6 +1647,11 @@ Standard 8.5x11 US Letter frame</description>
 <label x="17.78" y="99.06" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="19"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="10"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<label x="17.78" y="50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SPI_MISO" class="0">
 <segment>
@@ -1462,6 +1668,11 @@ Standard 8.5x11 US Letter frame</description>
 <wire x1="33.02" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
 <label x="17.78" y="96.52" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="21"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="11"/>
+<wire x1="30.48" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<label x="17.78" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C_SDA" class="0">
@@ -1480,6 +1691,11 @@ Standard 8.5x11 US Letter frame</description>
 <label x="17.78" y="119.38" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="3"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
+<label x="17.78" y="71.12" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="I2C_SCL" class="0">
 <segment>
@@ -1497,6 +1713,11 @@ Standard 8.5x11 US Letter frame</description>
 <label x="17.78" y="116.84" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="5"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="3"/>
+<wire x1="30.48" y1="68.58" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
+<label x="17.78" y="68.58" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SPI_CE_0" class="0">
 <segment>
@@ -1509,6 +1730,11 @@ Standard 8.5x11 US Letter frame</description>
 <label x="55.88" y="93.98" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="24"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="25"/>
+<wire x1="50.8" y1="45.72" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
+<label x="58.42" y="45.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3V3" class="0">
 <segment>
@@ -1520,6 +1746,11 @@ Standard 8.5x11 US Letter frame</description>
 <wire x1="33.02" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
 <label x="17.78" y="121.92" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="73.66" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
+<label x="17.78" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI_SCLK" class="0">
@@ -1537,6 +1768,11 @@ Standard 8.5x11 US Letter frame</description>
 <wire x1="195.58" y1="109.22" x2="187.96" y2="109.22" width="0.1524" layer="91"/>
 <label x="177.8" y="109.22" size="1.778" layer="95"/>
 <pinref part="JP7" gate="A" pin="6"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="12"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<label x="17.78" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

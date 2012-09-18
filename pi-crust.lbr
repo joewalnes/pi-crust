@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -43,8 +43,12 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -53,6 +57,48 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <library>
 <packages>
@@ -193,6 +239,40 @@
 <rectangle x1="12.446" y1="1.016" x2="12.954" y2="1.524" layer="51"/>
 <rectangle x1="14.986" y1="1.016" x2="15.494" y2="1.524" layer="51"/>
 <circle x="-16.48410625" y="-2.47591875" radius="0.13883125" width="0.127" layer="21"/>
+</package>
+<package name="MDF7-26D-2.54DSA">
+<wire x1="-16.5" y1="5" x2="16.5" y2="5" width="0.127" layer="21"/>
+<wire x1="16.5" y1="5" x2="16.5" y2="-5" width="0.127" layer="21"/>
+<wire x1="16.5" y1="-5" x2="-16.5" y2="-5" width="0.127" layer="21"/>
+<wire x1="-16.5" y1="-5" x2="-16.5" y2="5" width="0.127" layer="21"/>
+<pad name="P$1" x="-15.25" y="4.27" drill="1"/>
+<pad name="P$2" x="-12.71" y="4.27" drill="1"/>
+<pad name="P$3" x="-10.17" y="4.27" drill="1"/>
+<pad name="P$4" x="-7.63" y="4.27" drill="1"/>
+<pad name="P$5" x="-5.09" y="4.27" drill="1"/>
+<pad name="P$6" x="-2.55" y="4.27" drill="1"/>
+<pad name="P$7" x="-0.01" y="4.27" drill="1"/>
+<pad name="P$8" x="2.53" y="4.27" drill="1"/>
+<pad name="P$9" x="5.07" y="4.27" drill="1"/>
+<pad name="P$10" x="7.61" y="4.27" drill="1"/>
+<pad name="P$11" x="10.15" y="4.27" drill="1"/>
+<pad name="P$12" x="12.69" y="4.27" drill="1"/>
+<pad name="P$13" x="15.23" y="4.27" drill="1"/>
+<pad name="P$14" x="-15.25" y="-4.27" drill="1"/>
+<pad name="P$15" x="-12.71" y="-4.27" drill="1"/>
+<pad name="P$16" x="-10.17" y="-4.27" drill="1"/>
+<pad name="P$17" x="-7.63" y="-4.27" drill="1"/>
+<pad name="P$18" x="-5.09" y="-4.27" drill="1"/>
+<pad name="P$19" x="-2.55" y="-4.27" drill="1"/>
+<pad name="P$20" x="-0.01" y="-4.27" drill="1"/>
+<pad name="P$21" x="2.53" y="-4.27" drill="1"/>
+<pad name="P$22" x="5.07" y="-4.27" drill="1"/>
+<pad name="P$23" x="7.61" y="-4.27" drill="1"/>
+<pad name="P$24" x="10.15" y="-4.27" drill="1"/>
+<pad name="P$25" x="12.69" y="-4.27" drill="1"/>
+<pad name="P$26" x="15.23" y="-4.27" drill="1"/>
+<text x="-16" y="5.4" size="1.27" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-16.3" y="-6.6" size="1.27" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
