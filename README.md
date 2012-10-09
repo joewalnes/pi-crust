@@ -3,9 +3,11 @@ Pi Crust
 
 This is a PCB that brings sanity to Raspberry Pi headers.
 
-![Pi Crust PCB Layout](https://github.com/joewalnes/pi-crust/raw/master/images/pcb.png)
+![Pi Crust Prototype](https://github.com/joewalnes/pi-crust/raw/master/images/prototype.jpg)
+(Early Prototype)
 
-### This project is a work in progress. The board is not finished yet. ###
+![Pi Crust PCB Layout](https://github.com/joewalnes/pi-crust/raw/master/images/pcb.png)
+(PCB)
 
 The [Raspberry Pi](http://www.raspberrypi.org/) is the new play toy for hackers. But interfacing
 with peripherals is a bit awkward... this board aims to address that.
@@ -62,9 +64,9 @@ I recommend ordering the PCB from [OSHPark.com](http://oshpark.com).
 
 If you're unfamiliar with this service, it allows you to upload a PCB and they'll get it made for you. The minimum you can order is 3 - give some to your friends.
 
-Ordering 3 PiCrust PCBs from OSHPark should cost about $13.80 and take 2-4 weeks to arrive.
+Ordering 3 Pi Crust PCBs from OSHPark should cost about $13.80 and take 2-4 weeks to arrive.
 
-*   Download the [PCB Board file](https://github.com/joewalnes/pi-crust/blob/master/pi-crust.brd).
+*   Download the [PCB Board file](https://github.com/joewalnes/pi-crust/raw/master/pi-crust.brd).
 *   Go to [OSHPark.com](http://oshpark.com), click 'Get Started Now', and upload the file. Follow the instructions and you'll receive some high quality PCBs in a few weeks time.
 
 
@@ -85,7 +87,7 @@ Parts Required
   <tr>
     <td>2x13 0.1" bottom entry board-to-board connector</td>
     <td>1</td>
-    <td><a href="http://www.mouser.com/ProductDetail/?qs=sGAEpiMZZMvFp%252byPHbnZYwunzTEjB0Kf">Mouser ($)</a></td>
+    <td><a href="http://www.mouser.com/ProductDetail/?qs=sGAEpiMZZMvFp%252byPHbnZYwunzTEjB0Kf">Mouser ($1.75)</a></td>
   </tr>
   <tr>
     <td>1x2 0.1" female header</td>
