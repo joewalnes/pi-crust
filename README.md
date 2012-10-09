@@ -25,7 +25,7 @@ Features
 *   All thru-hole components - you can solder it yourself.
 *   Cheapety cheapy cheap.
 *   Open source hardware.
-
+*   [More photos here](http://todayimade.co/items/joe-walnes-made-a-tiny-breakout-board-for-raspberry-pi)
 
 Non-Features
 ------------
@@ -36,7 +36,7 @@ There are no electronic components on the board. Apart from the connectors.
 License
 -------
 
-[Creative Commons 2.5, Attribution, Share-alike] (http://creativecommons.org/licenses/by-sa/2.5/)
+[Creative Commons 2.5, Attribution, Share-alike](http://creativecommons.org/licenses/by-sa/2.5/)
 
 
 Physical Design
