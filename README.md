@@ -66,7 +66,7 @@ If you're unfamiliar with this service, it allows you to upload a PCB and they'l
 
 Ordering 3 Pi Crust PCBs from OSHPark should cost about $13.80 and take 2-4 weeks to arrive.
 
-*   Download the [PCB Board file](https://github.com/joewalnes/pi-crust/raw/master/pi-crust.brd).
+*   Download the [PCB Board file](https://github.com/joewalnes/pi-crust/raw/master/pi-crust.brd) (right click, save as).
 *   Go to [OSHPark.com](http://oshpark.com), click 'Get Started Now', and upload the file. Follow the instructions and you'll receive some high quality PCBs in a few weeks time.
 
 
