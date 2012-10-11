@@ -4,9 +4,11 @@ Pi Crust
 This is a PCB that brings sanity to Raspberry Pi headers.
 
 ![Pi Crust Prototype](https://github.com/joewalnes/pi-crust/raw/master/images/prototype.jpg)
-(Early Prototype)
+
+(Early Prototype: Note the main 26 pin connector is not in this photo)
 
 ![Pi Crust PCB Layout](https://github.com/joewalnes/pi-crust/raw/master/images/pcb.png)
+
 (PCB)
 
 The [Raspberry Pi](http://www.raspberrypi.org/) is the new play toy for hackers. But interfacing
