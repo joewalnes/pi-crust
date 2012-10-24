@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Pi-Crust</title>
+    <title>Pi Crust</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -12,6 +12,9 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <style>
+      a {
+        color: #36b515;
+      }
       .pi-crust-logo {
         width: 270px;
         height: auto;
@@ -23,6 +26,12 @@
           top: -10px;
         }
       }
+      .nav {
+         padding: 0; 
+      }
+      .nav li {
+        list-style-type: none;
+      }
     </style>
   </head>
   <body>
@@ -32,6 +41,17 @@
 
         <p>Connect things to your Raspberry Pi</p>
 
+        <ul class="nav">
+          <li><a href="#about">What's this?</a></li>
+          <li><a href="#license">License</a></li>
+          <li><a href="#design">About the design</a></li>
+          <li><a href="#get">Get the parts</a></li>
+          <li><a href="#make">How to make</a></li>
+          <li><a href="#use">How to use</a></li>
+          <li><a href="#wild">In the wild</a></li>
+        </ul> 
+
+        <!--
         <p class="view"><a href="https://github.com/joewalnes/pi-crust">View the Project on GitHub <small>joewalnes/pi-crust</small></a></p>
 
         <ul>
@@ -39,28 +59,23 @@
           <li><a href="https://github.com/joewalnes/pi-crust/tarball/master">Download <strong>TAR Ball</strong></a></li>
           <li><a href="https://github.com/joewalnes/pi-crust">View On <strong>GitHub</strong></a></li>
         </ul>
+        -->
+
+        <p><img src="images/photo04.jpg"></p>
       </header>
       <section>
 
-        <h3>What's This?</h3>
+        <h3><a name="about">What's This?</a></h3>
 
-        <p>This is a PCB that brings sanity to Raspberry Pi headers.</p>
+        <p>An add-on board for the <a href="http://www.raspberrypi.org/" target="_blank">Raspberry Pi</a>, making it convenient to attach peripherals.</p>
 
-        <p><img src="https://github.com/joewalnes/pi-crust/raw/master/images/prototype.jpg" alt="Pi Crust prototype"></p>
-        <p>(Early Prototype: Note the main 26 pin connector is not in this photo)</p>
+        <p><img src="images/photo02.jpg"></p>
 
-        <p><img src="https://github.com/joewalnes/pi-crust/raw/master/images/pcb.png" alt="Pi Crust PCB layout"></p>
-        <p>(PCB)</p>
-
-        <p>The <a href="http://www.raspberrypi.org/" target="_blank">Raspberry Pi</a> is the new play toy for hackers. This board extends
-        the Raspberry Pi, making it easy to interface with the low level peripheral interfaces.</p>
-
-
-        <h3>Features</h3>
+        <h4>Pi Crust Features</h4>
 
         <ul>
           <li>Really compact - sits <em>inside</em> the surface area of the Raspberry Pi and adds less than 2mm to the height.
-          If you have a case for your Raspberry Pi, this board should fit inside it.</li>
+          If you have a case for your Raspberry Pi, this board may well fit inside it.</li>
           <li>Pins are grouped together: GPIO, I2C, SPI, UART and power.</li>
           <li>Every pin is clearly labelled.</li>
           <li>Connections: 2 x SPI, 2 x I2C, 1 x UART, 8 x GPIO.</li>
@@ -73,12 +88,14 @@
           <!--<li>*   [More photos here](http://todayimade.co/items/joe-walnes-made-a-tiny-breakout-board-for-raspberry-pi)-->
         </ul>
 
-        <h3>License</h3>
+        <p><img src="images/photo01.jpg"></p>
 
-        <a href="http://creativecommons.org/licenses/by-sa/2.5/" target="_blank">Creative Commons 2.5, Attribution, Share-alike</a>
+        <h3><a name="license">License</a></h3>
+
+        <p><a href="http://creativecommons.org/licenses/by-sa/2.5/" target="_blank">Creative Commons 2.5, Attribution, Share-alike</a></p>
 
 
-        <h3>About Design</h3>
+        <h3><a name="design">About the Design</a></h3>
 
         <p>The toughest part of this design was making it fit inside a Raspberry Pi. The existing Raspberry Pi headers
         actually go all the way through the board and it sits approximately 2mm above the Raspberry Pi (very close).
@@ -88,9 +105,9 @@
         to ensure that any thru-hole components avoid components on the Raspberry Pi board (so they don't short them out),
         and to avoid restricting air getting to the main ARM processor.</p>
 
-        <h3>I Want One!</h3>
+        <h3><a name="get">Get the Parts</a></h3>
 
-        <p>I don't sell these. But you can order the parts and assemble it yourself. If you can do basic soldering, you're all set. It's very easy.</p>
+        <p>I don't sell these. But you can order the parts and assemble it yourself. If you can do basic soldering, you're all set. It's very easy: here's how...</p>
 
 
         <h4>Ordering the PCB</h4>
@@ -166,10 +183,10 @@
         <ul>
           <li>The prices above are in US dollars, in the minimum quantity available, and may have change since this page was written. Please check the websites for the most recent prices.</li>
           <li>The prices above many not include shipping or tax.</li>
-          <li>When ordering, remember to check you've ordered the right quantity. Some of these parts require more than 1.</li>
+          <li>When ordering, remember to check you've ordered the right quantity. Some of these parts require more than one.</li>
         </ul>
 
-        <h4>Assembly Instructions</h4>
+        <h3><a name="make">How to Make</a></h3>
 
         <ul>
           <li>If you ordered the PCB through OSHPark.com, there may be additional tabs attached to some of the edges of the PCB. You should remove these with pliers or cutters.</li>
@@ -180,10 +197,27 @@
           <li>Go play.</li>
         </ul>
 
+        <h3><a name="use">How to Use</a></h3>
+
+        <p>The board clearly labels the pins. For details about interfacing with peripherals, see the
+        <a href="http://elinux.org/RPi_Low-level_peripherals" target="_blank">RPi Low Level Peripherals Guide</a>.</p>
+
+        <p><img src="images/photo05.jpg"></p>
+
+        <h3><a name="wild">In the Wild</a></h3>
+
+        <p><a href="http://www.element14.com/community/groups/raspberry-pi/blog/authors/fustini" target="_blank">Drew Fustini</a> noticed that the <a href="http://www.adafruit.com/products/264" target="_blank">Adafruit
+        Real Time Clock module</a> has the same I2C pin ordering. You can slot it in directly.</p>
+        <p><img src="images/photo03.jpg"></p>
+
       </section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/joewalnes">joewalnes</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p>Designed by <a href="http://joewalnes.com/" target="_blank">Joe Walnes</a> (<a href="https://twitter.com/joewalnes" target="_blank">@joewalnes</a>).</p>
+        <p><small>Contributors: <a href="http://theproductmanufactory.com/" target="_blank">Mercedes Mane</a> and <a href="http://pcbguild.com/?page_id=139" target="_blank">Salman Mahmood</a>.<br>
+        Hosted on GitHub Pages. Theme by <a href="https://github.com/orderedlist">orderedlist</a>.<br>
+        <a href="https://github.com/joewalnes/pi-crust" target="_blank">Forky forky on GitHub</a>.
+        </small></p>
+
       </footer>
     </div>
 
