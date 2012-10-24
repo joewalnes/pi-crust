@@ -12,7 +12,11 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <style>
-      a {
+      a[name] {
+        color: inherit;
+        font-weight: inherit;
+      }
+      a[href] {
         color: #36b515;
       }
       .pi-crust-logo {
@@ -31,6 +35,11 @@
       }
       .nav li {
         list-style-type: none;
+      }
+      @media print, screen and (max-height: 770px) {
+        footer {
+          display: none;
+        }
       }
     </style>
     <script type="text/javascript">
