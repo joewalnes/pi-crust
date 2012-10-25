@@ -36,9 +36,18 @@
       .nav li {
         list-style-type: none;
       }
-      @media print, screen and (max-height: 770px) {
-        footer {
+      .main-photo-side {
+        display: block;
+      }
+      .main-photo-center {
+        display: none;
+      }
+      @media print, screen and (max-height: 800px) {
+        .main-photo-side {
           display: none;
+        }
+        .main-photo-center {
+          display: block;
         }
       }
       .update {
@@ -68,14 +77,11 @@
 
         <ul class="nav">
           <li><a href="#about">What's this?</a></li>
-          <li><a href="#license">License</a></li>
-          <li><a href="#design">About the design</a></li>
           <li><a href="#get">Get the parts</a></li>
           <li><a href="#make">How to make</a></li>
           <li><a href="#use">How to use</a></li>
-          <li><a href="#wild">In the wild</a></li>
           <li><a href="#more">Want more?</a></li>
-          <li><a href="#help">Help, support, discuss</a></li>
+          <li><a href="#help">Help and support</a></li>
         </ul> 
 
         <!--
@@ -88,9 +94,10 @@
         </ul>
         -->
 
-        <p><img src="images/photo04.jpg"></p>
+        <p><img class="main-photo-side" src="images/photo04.jpg"></p>
       </header>
       <section>
+
 
         <div class="update">
           <strong>Update:</strong> OSH Park now sells the PCB alone for <a href="#get">$4.60</a>. See below for the other components.
@@ -101,6 +108,7 @@
 
         <p>An add-on board for the <a href="http://www.raspberrypi.org/" target="_blank">Raspberry Pi</a>, making it convenient to attach peripherals.</p>
 
+        <p><img class="main-photo-center" src="images/photo04.jpg"></p>
         <p><img src="images/photo02.jpg"></p>
 
         <h4>Pi Crust Features</h4>
@@ -116,7 +124,7 @@
           where it makes sense (e.g. within the UART, I2C and SPI groups).</li>
           <li>All thru-hole components - you can solder it yourself.</li>
           <li>Cheapety cheapy cheap.</li>
-          <li>Open source hardware.</li>
+          <li><strong>Open source hardware.</strong></li>
         </ul>
 
         <p><img src="images/photo01.jpg"></p>
@@ -125,12 +133,12 @@
           Pssst... you can follow <a href="https://twitter.com/joewalnes" target="_blank">@joewalnes</a> and <a href="https://twitter.com/quick2wire" target="_blank">@quick2wire</a> on Twitter!
         </div>
 
-        <h3><a name="license">License</a></h3>
+        <h4><a name="license">License</a></h4>
 
         <p><a href="http://creativecommons.org/licenses/by-sa/2.5/" target="_blank">Creative Commons 2.5, Attribution, Share-alike</a></p>
 
 
-        <h3><a name="design">About the Design</a></h3>
+        <h4><a name="design">About the Design</a></h4>
 
         <p>The toughest part of this design was making it fit inside a Raspberry Pi. The existing Raspberry Pi headers
         actually go all the way through the board and it sits approximately 2mm above the Raspberry Pi (very close).
@@ -225,13 +233,7 @@
 
         <p><img src="images/photo05.jpg"></p>
 
-        <h3><a name="wild">In the Wild</a></h3>
-
-        <p><a href="http://www.element14.com/community/groups/raspberry-pi/blog/authors/fustini" target="_blank">Drew Fustini</a> noticed that the <a href="http://www.adafruit.com/products/264" target="_blank">Adafruit
-        Real Time Clock module</a> has the same I2C pin ordering. You can slot it in directly.</p>
-        <p><img src="images/photo03.jpg"></p>
-
-        <h3><a name="help">Help, Support, Discussion...</a></h3>
+        <h3><a name="help">Help and support</a></h3>
 
         <p>Come visit the <a href="https://groups.google.com/forum/#!forum/picrust" target="_target">Pi Crust Google Group</a>. Be nice to everyone.</p>
 
@@ -241,6 +243,12 @@
         and sign up for the newsletter.</p>
 
         <p>And follow <a href="https://twitter.com/joewalnes" target="_blank">@joewalnes</a> and <a href="https://twitter.com/quick2wire" target="_blank">@quick2wire</a> on Twitter.</p>
+
+        <h4>Pi Crust in the wild</h4>
+
+        <p><a href="http://www.element14.com/community/groups/raspberry-pi/blog/authors/fustini" target="_blank">Drew Fustini</a> noticed that the <a href="http://www.adafruit.com/products/264" target="_blank">Adafruit
+        Real Time Clock module</a> has the same I2C pin ordering. You can slot it in directly.</p>
+        <p><img src="images/photo03.jpg"></p>
 
       </section>
       <footer>
