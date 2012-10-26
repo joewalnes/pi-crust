@@ -1823,6 +1823,9 @@ Standard 8.5x11 US Letter frame</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="115,1,109.457,81.4112,JP4,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
