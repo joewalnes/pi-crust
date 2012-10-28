@@ -194,8 +194,8 @@
 <rectangle x1="12.3477" y1="16.9706" x2="18.2779" y2="36.1728" layer="40"/>
 <rectangle x1="42.418" y1="20.828" x2="43.942" y2="22.352" layer="26"/>
 <rectangle x1="28.194" y1="6.604" x2="29.718" y2="8.128" layer="26"/>
-<text x="15.771271875" y="11.068684375" size="2.032" layer="25" font="vector" ratio="12" rot="R90">Pi Crust v1.5</text>
-<text x="18.4519875" y="11.83216875" size="1.651" layer="25" font="vector" rot="R90">picru.st/</text>
+<text x="15.771271875" y="11.068684375" size="2.032" layer="25" font="vector" ratio="12" rot="R90">Pi Crust v5</text>
+<text x="18.17261875" y="11.083584375" size="1.651" layer="25" font="vector" rot="R90">picru.st/</text>
 <text x="14.08355" y="1.54111875" size="1.27" layer="26" font="vector" rot="MR90">by @joewalnes (CC-SA) </text>
 <wire x1="10.16" y1="40.386" x2="10.16" y2="33.528" width="0.127" layer="27"/>
 <wire x1="10.16" y1="33.528" x2="22.352" y2="33.528" width="0.127" layer="27"/>
