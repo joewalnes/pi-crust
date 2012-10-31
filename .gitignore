@@ -7,3 +7,5 @@
 *.pro
 
 export
+*.gerbers
+*.zip
