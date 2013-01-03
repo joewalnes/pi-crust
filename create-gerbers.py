@@ -14,8 +14,8 @@ job_spec = [
   ('Bottom_Solder_Mask.ger'  , 'GERBER_RS274X', [20, 30]        , 'Solder mask bottom'),
   ('Top_Silk_Screen.ger'     , 'GERBER_RS274X', [20, 21, 25]    , 'Silk top'),
   ('Bottom_Silk_Screen.ger'  , 'GERBER_RS274X', [20, 22, 26]    , 'Silk bottom'),
-  ('Top_Solder_Paste.ger'    , 'GERBER_RS274X', [20, 31]        , 'Solder paste top'),
-  ('Bottom_Solder_Paster.ger', 'GERBER_RS274X', [20, 32]        , 'Solder paste bottom'),
+#  ('Top_Solder_Paste.ger'    , 'GERBER_RS274X', [20, 31]        , 'Solder paste top'),
+#  ('Bottom_Solder_Paster.ger', 'GERBER_RS274X', [20, 32]        , 'Solder paste bottom'),
   ('Outline.ger'             , 'GERBER_RS274X', [20, 46]        , 'Outline'),
   ('Drills.xln'              , 'EXCELLON'     , [44, 45]        , 'Drills and holes'),
 ]
