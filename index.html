@@ -12,12 +12,19 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <style>
+      body {
+        color: #444;
+      }
       a[name] {
         color: inherit;
         font-weight: inherit;
       }
       a[href] {
-        color: #36b515;
+        color: #00787A;
+        /*color: #36b515;*/
+      }
+      header h1, header h2, header h3 {
+        color: #494949;
       }
       .pi-crust-logo {
         width: 270px;
@@ -42,6 +49,9 @@
       .main-photo-center {
         display: none;
       }
+      small {
+        font-size: 10px;
+      }
       @media print, screen and (max-height: 800px) {
         .main-photo-side {
           display: none;
@@ -50,8 +60,11 @@
           display: block;
         }
       }
+      input {
+        font-family: inherit;
+      }
       .update {
-        background-color: #eee;
+        background-color: #E3FEFF;
         margin: 0 -10px 20px -10px;
         border: 1px solid #ccc;
         padding: 10px;
@@ -70,14 +83,15 @@
   </head>
   <body>
 
-    <a href="https://github.com/joewalnes/pi-crust" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+    <a href="https://github.com/joewalnes/pi-crust" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
 
     <div class="wrapper">
       <header>
         <img class="pi-crust-logo" src="images/PiCrust.svg" width="270" height="86" alt="PiCrust">
 
-        <p>Connect things to your Raspberry Pi</p>
-
+        <h1>Hello. I'm a Pi Crust.</h1>
+        <h2>I connect electronics to your Raspberry Pi.</h2>
+ 
         <ul class="nav">
           <li><a href="#about">What's this?</a></li>
           <li><a href="#get">Get the parts</a></li>
@@ -86,6 +100,15 @@
           <li><a href="#more">Want more?</a></li>
           <li><a href="#help">Help and support</a></li>
         </ul> 
+
+        <form action="http://theigloolab.us6.list-manage.com/subscribe/post?u=4615c3e326&amp;id=216b438231" method="post" class="newsletter-form">
+          <span>Newsletter</span>
+          <div class="input-append">
+            <input class="span3" type="email" value="" name="EMAIL" placeholder="name@email.com" style="margin: 0"><!--
+            --><input class="btn" type="submit" value="Sign up" style="margin: 0">
+          </div>
+          <small>No spam! We won't share your address.</small>
+        </form>
 
         <!--
         <p class="view"><a href="https://github.com/joewalnes/pi-crust">View the Project on GitHub <small>joewalnes/pi-crust</small></a></p>
@@ -132,10 +155,6 @@
 
         <p><img src="images/photo01.jpg"></p>
 
-        <div class="update">
-          Pssst... you can follow <a href="https://twitter.com/joewalnes" target="_blank">@joewalnes</a> and <a href="https://twitter.com/quick2wire" target="_blank">@quick2wire</a> on Twitter!
-        </div>
-
         <h4><a name="license">License</a></h4>
 
         <p><a href="http://creativecommons.org/licenses/by-sa/2.5/" target="_blank">Creative Commons 2.5, Attribution, Share-alike</a></p>
@@ -155,6 +174,19 @@
 
         <p>I don't sell these. But you can order the parts and assemble it yourself. If you can do basic soldering, you're all set. It's very easy: here's how...</p>
 
+        <div class="update">
+          <p><strong>Don't know how to solder?</strong> It's really easy. Check out the <a href="http://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf" target="_blank">Soldering Is Easy</a> comic.</p>
+
+          <p style="margin-bottom: 4px"><strong>Don't want to solder?</strong> Sign up to the newsletter to find out when you can buy these (and future) boards, pre-assembled:</p>
+
+          <form action="http://theigloolab.us6.list-manage.com/subscribe/post?u=4615c3e326&amp;id=216b438231" method="post" class="newsletter-form">
+            <div class="input-append">
+              <input class="span3" type="email" value="" name="EMAIL" placeholder="name@email.com" style="margin: 0"><!--
+              --><input class="btn" type="submit" value="Sign up" style="margin: 0">
+              <small>No spam! We won't share your address.</small>
+            </div>
+          </form>
+        </div>
 
         <h4>Parts Required</h4>
 
@@ -242,12 +274,18 @@
 
         <h3><a name="more">Want More? MOARRR!?</a></h3>
 
-        <p>The Pi Crust is a really bare bones board. If you want more, go and check out <a href="http://quick2wire.com/" target="_blank">Quick2Wire.com</a>
-        and sign up for the newsletter.</p>
+        <p>We're working on new board is coming soon with lots of on-board goodies, including more digital pins, analog and on board LEDs and buttons. Want to know when it's ready? Sign up to the newsletter:</p>
 
-        <p>And follow <a href="https://twitter.com/joewalnes" target="_blank">@joewalnes</a> and <a href="https://twitter.com/quick2wire" target="_blank">@quick2wire</a> on Twitter.</p>
+        <form action="http://theigloolab.us6.list-manage.com/subscribe/post?u=4615c3e326&amp;id=216b438231" method="post" class="newsletter-form">
+          <div class="input-append">
+            <input class="span3" type="email" value="" name="EMAIL" placeholder="name@email.com" style="margin: 0"><!--
+            --><input class="btn" type="submit" value="Sign up" style="margin: 0">
+            <small>No spam! We won't share your address.</small>
+          </div>
+          <br>
+        </form>
 
-        <h4>Pi Crust in the wild</h4>
+        <h3>Pi Crust in the wild</h3>
 
         <p><a href="http://www.element14.com/community/groups/raspberry-pi/blog/authors/fustini" target="_blank">Drew Fustini</a> noticed that the <a href="http://www.adafruit.com/products/264" target="_blank">Adafruit
         Real Time Clock module</a> has the same I2C pin ordering. You can slot it in directly.</p>
@@ -255,11 +293,10 @@
 
       </section>
       <footer>
-        <p>By <a href="http://joewalnes.com/" target="_blank">Joe Walnes</a> (<a href="https://twitter.com/joewalnes" target="_blank">@joewalnes</a>).</p>
+        <p>Created by <a href="https://twitter.com/joewalnes" target="_blank">Joe Walnes</a> 
+        in <a href="http://theigloolab.com/" target="_blank">the igloo lab</a>.
         <p><small>Contributors: <a href="http://theproductmanufactory.com/" target="_blank">Mercedes Mane</a> and <a href="http://arcistech.com/pcb-services/" target="_blank">Salman Mahmood</a>.<br>
-        Something, something, <a href="http://quick2wire.com/" target="_blank">Quick2Wire</a>.<br>
-        Big shout to <a href="http://pumpingstationone.org/" target="_blank">Pumping Station: One</a>.<br>
-        <a href="https://github.com/joewalnes/pi-crust" target="_blank">Forky forky on GitHub</a> &mdash;
+        <a href="https://github.com/joewalnes/pi-crust" target="_blank">Forky me on GitHub</a> &mdash;
         Theme by <a href="https://github.com/orderedlist">orderedlist</a>.<br>
         </small></p>
 
