@@ -14,7 +14,11 @@
     <style>
       body {
         color: #666;
-        font-size: 16px;
+        font-size: 18px;
+      }
+      li {
+        margin-top: 5px;
+        margin-bottom: 5px;
       }
       a[name] {
         color: inherit;
@@ -26,6 +30,10 @@
       header h1, header h2, header h3 {
         color: #494949;
       }
+      footer {
+        width: 330px;
+      }
+
       .pi-crust-logo {
         width: 270px;
         height: auto;
@@ -60,6 +68,19 @@
           display: block;
         }
       }
+      @media print, screen and (max-height: 730px) {
+        footer {
+          position: inherit;
+          float: left;
+          clear: both;
+          margin-left: 360px;
+        }
+      }
+      @media print, screen and (max-width: 960px) and (max-height: 730px) {
+        footer {
+          margin-left: 0;
+        }
+      }
       input {
         font-family: inherit;
       }
@@ -68,6 +89,9 @@
         margin: 0 -10px 20px -10px;
         border: 1px solid #ccc;
         padding: 10px;
+      }
+      .share-buttons > div {
+        display: inline-block;
       }
     </style>
     <script type="text/javascript">
@@ -80,6 +104,7 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
+
   </head>
   <body>
 
@@ -113,20 +138,22 @@
 
         <p><img class="main-photo-side" src="images/photo04.jpg"></p>
       </header>
+
       <section>
 
 
+        <!--
         <div class="update">
-          <strong>Update:</strong> OSH Park now sells the PCB alone for <a href="#get">$4.60</a>. See below for the other components.
+          <strong>Hello</strong> OSH Park now sells the PCB alone for <a href="#get">$4.60</a>. See below for the other components.
           And a <a href="#help">Google Groups mailing list</a> is now online to talk about anything Pi Crust related.
         </div>
+        -->
  
         <h3><a name="about">What am I?</a></h3>
 
         <p>I'm a breakout board for the <a href="http://www.raspberrypi.org/" target="_blank">Raspberry Pi</a>. I make it easy to
           connect electronics.</p>
 
-        <p><img class="main-photo-center" src="images/photo04.jpg"></p>
         <p><img src="images/photo02.jpg"></p>
 
         <ul>
@@ -139,8 +166,8 @@
           <li><strong>I'm fully open source hardware.</strong> Fork me, tweak me, share me.</li>
         </ul>
 
-        <p><img src="images/photo01.jpg"></p>
-
+        <p><img class="main-photo-center" src="images/photo04.jpg"></p>
+ 
         <h4><a name="design">About the Design</a></h4>
 
         <p>The toughest part of my design was making me fit inside a Raspberry Pi. The existing Raspberry Pi headers
@@ -150,6 +177,8 @@
         <p>Because I sit so close to the Raspberry Pi, care has been taken
         to ensure that my thru-hole components avoid components on the Raspberry Pi board (so they don't short them out),
         and to avoid restricting air getting to the main ARM processor.</p>
+
+        <p><img src="images/photo01.jpg"></p>
 
         <h3><a name="get">Get the Parts</a></h3>
 
@@ -292,6 +321,37 @@
       <footer>
         <p>Created by <a href="https://twitter.com/joewalnes" target="_blank">Joe Walnes</a> 
         in <a href="http://theigloolab.com/" target="_blank">the igloo lab</a>.</p>
+
+        <div class="share-buttons" style="width: 330px; height: 27px">
+          <!-- Google+: +1 button -->
+          <div class="g-plusone" data-size="medium" style="width: 90px; height: 20px;"></div>
+          <script type="text/javascript">
+            (function() {
+              var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+              po.src = 'https://apis.google.com/js/plusone.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+            })();
+          </script>
+          <!-- Twitter: share button -->
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="joewalnes"></a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          <!-- Facebook: like button -->
+          <div id="fb-root"></div>
+          <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
+          <div class="fb-like" data-href="http://picru.st/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-font="arial"></div>
+          <style>
+            .fb_edge_widget_with_comment {
+              position: relative;
+              top: -4px;
+            }
+        </div>
+
       </footer>
     </div>
 
