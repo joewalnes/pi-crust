@@ -1,2 +1,11 @@
-.DS_Store
 *.swp
+
+# Eagle temporary files
+*.b#*
+*.s#*
+*.l#*
+*.pro
+
+export
+*.gerbers
+*.zip
