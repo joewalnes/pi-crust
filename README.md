@@ -24,3 +24,7 @@ Features
 See [http://picru.st](http://picru.st) for more.
 
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/joewalnes/pi-crust/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
