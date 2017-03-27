@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -195,7 +195,7 @@
 <rectangle x1="42.418" y1="20.828" x2="43.942" y2="22.352" layer="26"/>
 <rectangle x1="28.194" y1="6.604" x2="29.718" y2="8.128" layer="26"/>
 <text x="15.771271875" y="11.068684375" size="2.032" layer="25" font="vector" ratio="12" rot="R90">Pi Crust v5</text>
-<text x="18.17261875" y="11.083584375" size="1.651" layer="25" font="vector" rot="R90">picru.st/</text>
+<text x="18.17261875" y="11.083584375" size="1.651" layer="25" font="vector" rot="R90">pi-supply.com</text>
 <text x="14.08355" y="1.54111875" size="1.27" layer="26" font="vector" rot="MR90">by @joewalnes (CC-SA) </text>
 <wire x1="10.16" y1="40.386" x2="10.16" y2="33.528" width="0.127" layer="27"/>
 <wire x1="10.16" y1="33.528" x2="22.352" y2="33.528" width="0.127" layer="27"/>
@@ -205,6 +205,7 @@
 <wire x1="25.5196" y1="9.33" x2="37.7944" y2="9.33" width="0.254" layer="20"/>
 <wire x1="37.7944" y1="9.33" x2="38.7944" y2="10.33" width="0.254" layer="20"/>
 <wire x1="38.7944" y1="10.33" x2="43.542" y2="10.33" width="0.254" layer="20"/>
+<text x="20.354871875" y="32.997028125" size="1.27" layer="26" font="vector" rot="MR270">picru.st/</text>
 </plain>
 <libraries>
 <library name="pinhead">
@@ -688,7 +689,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules>
+<designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -770,6 +771,9 @@ Please make sure your boards conform to these design rules.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="8mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="-"/>
 <param name="PrefDir.2" value="0"/>
@@ -1270,81 +1274,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="35.56" y1="26.8224" x2="35.56" y2="26.67" width="0.1524" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="18,29,15916f9597e7da01"/>
-<approved hash="18,29,230fe554aa65234c"/>
-<approved hash="18,29,f0d8e2cb604819ed"/>
-<approved hash="18,29,070d7ee7056a114c"/>
-<approved hash="18,29,fc61eea26c331554"/>
-<approved hash="18,29,683b17916c1c7802"/>
-<approved hash="18,29,e733f65074e10e06"/>
-<approved hash="18,29,29c651922a1f3a01"/>
-<approved hash="18,29,68da07ce41437408"/>
-<approved hash="18,29,221a06a677f33570"/>
-<approved hash="18,29,bdacabaa5b931c03"/>
-<approved hash="18,29,937e5d5ead0f9a77"/>
-<approved hash="18,29,bb60ac2eea6d188b"/>
-<approved hash="18,29,91f25f2695d59bfb"/>
-<approved hash="18,29,bac4ac2acef72483"/>
-<approved hash="18,29,ef3221560211e573"/>
-<approved hash="18,29,74aa781b7b11d898"/>
-<approved hash="18,29,cdea2d7c3cca9ca9"/>
-<approved hash="18,29,634d412e493dc4aa"/>
-<approved hash="18,29,6b0b08fb2f46e342"/>
-<approved hash="18,29,e6d895ce8f7eef09"/>
-<approved hash="18,29,ec1894a7f9ceae70"/>
-<approved hash="18,29,832aa5fb2e3b47e7"/>
-<approved hash="18,29,69cb12cd351ce1ee"/>
-<approved hash="18,29,633978947003c45a"/>
-<approved hash="18,29,edf8964bc374ae64"/>
-<approved hash="18,29,dab8966297b4d13d"/>
-<approved hash="18,29,6a3ba49f837ae22a"/>
-<approved hash="18,29,1cbdd5f2a231c48a"/>
-<approved hash="18,29,deb0957e2392d631"/>
-<approved hash="18,29,9030ea871292aed8"/>
-<approved hash="18,29,832c515990728d4e"/>
-<approved hash="18,29,f8fca212dcfcb384"/>
-<approved hash="18,29,f8d5a21181b10b82"/>
-<approved hash="18,29,8df45fd178ec82c2"/>
-<approved hash="18,29,83ca5121d7de0cc3"/>
-<approved hash="18,29,ff59a26199130bbe"/>
-<approved hash="18,29,f958a216f8668f8c"/>
-<approved hash="18,29,81465359ef040d4f"/>
-<approved hash="18,29,9fa56f02ef33be97"/>
-<approved hash="18,29,13317ff4f32abee6"/>
-<approved hash="18,29,8d1ff8be4b160b5a"/>
-<approved hash="18,29,e9cbfcd8fa36dac8"/>
-<approved hash="18,29,6cbb046059a2c03e"/>
-<approved hash="18,29,23fb04487562bf66"/>
-<approved hash="18,29,8d7362e751f28b8b"/>
-<approved hash="18,29,ed1885f9031e5e12"/>
-<approved hash="18,29,68d2078522574014"/>
-<approved hash="18,29,2ed2089aecdd3f7d"/>
-<approved hash="18,29,eb2c9b031d1858da"/>
-<approved hash="18,29,8d1785b1b6008b4b"/>
-<approved hash="18,29,21f206520a1f3f15"/>
-<approved hash="18,29,68f206693ad1463c"/>
-<approved hash="18,29,8d6bc10472280baa"/>
-<approved hash="18,29,eb0be6eee06cd864"/>
-<approved hash="18,29,50db07cc4168fe0a"/>
-<approved hash="18,29,221b06a44fd8bf72"/>
-<approved hash="18,29,33f3a5d9e2f08bc5"/>
-<approved hash="18,29,62d258163fad028a"/>
-<approved hash="18,29,3d2bab510a6e8449"/>
-<approved hash="18,29,635f5811467a8684"/>
-<approved hash="18,29,3f6ba85930c484dd"/>
-<approved hash="18,29,3f41a95175180448"/>
-<approved hash="18,29,655e5866270f02b6"/>
-<approved hash="18,29,631a588609a105b2"/>
-<approved hash="4,1,6a4eb549d219970d"/>
-<approved hash="4,1,fbbf42dc11b88092"/>
-<approved hash="4,1,73f8bb604749a15f"/>
-<approved hash="4,1,a2bcae7115db6984"/>
-<approved hash="4,16,6a4eb549d219970d"/>
-<approved hash="4,16,fbbf42dc11b88092"/>
-<approved hash="4,16,73f8bb604749a15f"/>
-<approved hash="4,16,a2bcae7115db6984"/>
-</errors>
 </board>
 </drawing>
 </eagle>
