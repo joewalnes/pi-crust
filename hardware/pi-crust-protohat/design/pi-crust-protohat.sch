@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5267,10 +5267,6 @@ Designed by &lt;a href="http://bastelstube.rocci.net/"&gt;Martin's Bastelstube&l
 Comments / complaints / bug reports / suggestions to &lt;author&gt;eightbit@web.de&lt;/author&gt;</description>
 <packages>
 <package name="RASPI_BOARD_B+_SMD_CONNECTOR">
-<circle x="0.071" y="-48.951" radius="3.2" width="0.127" layer="52"/>
-<circle x="58.071" y="-48.951" radius="3.2" width="0.127" layer="52"/>
-<circle x="58.071" y="0.049" radius="3.2" width="0.127" layer="52"/>
-<circle x="0.071" y="0.049" radius="3.2" width="0.127" layer="52"/>
 <wire x1="-3.429" y1="-49.451" x2="-0.429" y2="-52.451" width="0" layer="20" curve="90"/>
 <wire x1="-0.429" y1="-52.451" x2="58.571" y2="-52.451" width="0" layer="20"/>
 <wire x1="58.571" y1="-52.451" x2="61.571" y2="-49.451" width="0" layer="20" curve="90"/>
@@ -5278,6 +5274,14 @@ Comments / complaints / bug reports / suggestions to &lt;author&gt;eightbit@web.
 <wire x1="61.571" y1="1.057" x2="58.571" y2="4.057" width="0" layer="20" curve="90"/>
 <wire x1="58.571" y1="4.057" x2="-0.429" y2="4.057" width="0" layer="20"/>
 <wire x1="-0.429" y1="4.057" x2="-3.429" y2="1.057" width="0" layer="20" curve="90"/>
+<hole x="0.071" y="-48.951" drill="2.75"/>
+<hole x="0.071" y="0.049" drill="2.75"/>
+<hole x="58.071" y="-48.951" drill="2.75"/>
+<hole x="58.071" y="0.049" drill="2.75"/>
+<circle x="0.071" y="-48.951" radius="3.2" width="0.127" layer="52"/>
+<circle x="58.071" y="-48.951" radius="3.2" width="0.127" layer="52"/>
+<circle x="58.071" y="0.049" radius="3.2" width="0.127" layer="52"/>
+<circle x="0.071" y="0.049" radius="3.2" width="0.127" layer="52"/>
 <wire x1="-3.429" y1="-49.451" x2="-3.429" y2="-34.951" width="0" layer="20"/>
 <wire x1="-3.429" y1="-34.951" x2="-1.429" y2="-32.951" width="0" layer="20" curve="-90"/>
 <wire x1="-1.429" y1="-32.951" x2="-0.429" y2="-32.951" width="0" layer="20"/>
@@ -5293,52 +5297,48 @@ Comments / complaints / bug reports / suggestions to &lt;author&gt;eightbit@web.
 <wire x1="42.571" y1="-33.451" x2="41.571" y2="-32.451" width="0" layer="20" curve="90"/>
 <wire x1="41.571" y1="-32.451" x2="40.571" y2="-33.451" width="0" layer="20" curve="90"/>
 <wire x1="40.571" y1="-33.451" x2="40.571" y2="-48.451" width="0" layer="20"/>
-<smd name="P1" x="4.953" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P2" x="4.953" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P3" x="7.493" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P4" x="7.493" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P5" x="10.033" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P6" x="10.033" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P7" x="12.573" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P8" x="12.573" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P9" x="15.113" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P10" x="15.113" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P11" x="17.653" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P12" x="17.653" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P13" x="20.193" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P14" x="20.193" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P15" x="22.733" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P16" x="22.733" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P17" x="25.273" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P18" x="25.273" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P19" x="27.813" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P20" x="27.813" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P21" x="30.353" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P22" x="30.353" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P23" x="32.893" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P24" x="32.893" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P25" x="35.433" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P26" x="35.433" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P27" x="37.973" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P28" x="37.973" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P29" x="40.513" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P30" x="40.513" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P31" x="43.053" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P32" x="43.053" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P33" x="45.593" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P34" x="45.593" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P35" x="48.133" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P36" x="48.133" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P37" x="50.673" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P38" x="50.673" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P39" x="53.213" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
-<smd name="P40" x="53.213" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
 <text x="0.571" y="-31.451" size="1.016" layer="51" font="vector" ratio="10" rot="R90">Display Flex Slot</text>
 <text x="42.071" y="-47.701" size="1.016" layer="51" font="vector" ratio="10" rot="R90">Camera Flex Slot</text>
-<hole x="0.071" y="-48.951" drill="2.8"/>
-<hole x="0.071" y="0.049" drill="2.8"/>
-<hole x="58.071" y="-48.951" drill="2.8"/>
-<hole x="58.071" y="0.049" drill="2.8"/>
+<smd name="P1" x="4.953" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P3" x="7.493" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P5" x="10.033" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P7" x="12.573" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P9" x="15.113" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P11" x="17.653" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P13" x="20.193" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P15" x="22.733" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P17" x="25.273" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P19" x="27.813" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P21" x="30.353" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P23" x="32.893" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P25" x="35.433" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P27" x="37.973" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P29" x="40.513" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P31" x="43.053" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P33" x="45.593" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P35" x="48.133" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P37" x="50.673" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P39" x="53.213" y="-2.794" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P2" x="4.953" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P4" x="7.493" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P6" x="10.033" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P8" x="12.573" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P10" x="15.113" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P12" x="17.653" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P14" x="20.193" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P16" x="22.733" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P18" x="25.273" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P20" x="27.813" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P22" x="30.353" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P24" x="32.893" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P26" x="35.433" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P28" x="37.973" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P30" x="40.513" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P32" x="43.053" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P34" x="45.593" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P36" x="48.133" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P38" x="50.673" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
+<smd name="P40" x="53.213" y="2.936" dx="1.87" dy="1.02" layer="16" rot="R90"/>
 <hole x="6.223" y="0.071" drill="1.6"/>
 <hole x="51.943" y="0.071" drill="1.6"/>
 </package>
@@ -5351,49 +5351,49 @@ Model B+ &amp;nbsp; with 9 &amp;quot;not connected&amp;quot; pins</description>
 <wire x1="12.7" y1="25.4" x2="12.7" y2="-38.1" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-38.1" x2="-12.7" y2="-38.1" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-38.1" x2="-12.7" y2="25.4" width="0.254" layer="94"/>
-<pin name="3V3" x="5.08" y="27.94" length="short" direction="pwr" rot="R270"/>
+<text x="13.97" y="22.86" size="1.778" layer="97" ratio="10">Raspberry Pi</text>
+<text x="13.97" y="20.32" size="1.778" layer="97" ratio="10">GPIO Port</text>
 <pin name="5V0" x="-5.08" y="27.94" length="short" direction="pwr" rot="R270"/>
+<pin name="3V3" x="5.08" y="27.94" length="short" direction="pwr" rot="R270"/>
 <pin name="GND" x="0" y="-40.64" length="short" direction="pwr" rot="R90"/>
-<pin name="GPIO04" x="-15.24" y="-2.54" length="short"/>
-<pin name="GPIO05" x="-15.24" y="-7.62" length="short" direction="nc"/>
-<pin name="GPIO06" x="-15.24" y="-10.16" length="short" direction="nc"/>
-<pin name="GPIO12" x="-15.24" y="-12.7" length="short" direction="nc"/>
-<pin name="GPIO13" x="-15.24" y="-15.24" length="short" direction="nc"/>
-<pin name="GPIO16" x="-15.24" y="-20.32" length="short" direction="nc"/>
+<pin name="SDA" x="-15.24" y="-35.56" length="short"/>
+<pin name="SCL" x="-15.24" y="-33.02" length="short"/>
 <pin name="GPIO17" x="-15.24" y="15.24" length="short"/>
 <pin name="GPIO18" x="-15.24" y="12.7" length="short"/>
-<pin name="GPIO19" x="-15.24" y="-17.78" length="short" direction="nc"/>
-<pin name="GPIO20" x="-15.24" y="-25.4" length="short" direction="nc"/>
-<pin name="GPIO21" x="-15.24" y="-27.94" length="short" direction="nc"/>
+<pin name="GPIO27" x="-15.24" y="10.16" length="short"/>
 <pin name="GPIO22" x="-15.24" y="7.62" length="short"/>
 <pin name="GPIO23" x="-15.24" y="5.08" length="short"/>
 <pin name="GPIO24" x="-15.24" y="2.54" length="short"/>
 <pin name="GPIO25" x="-15.24" y="0" length="short"/>
-<pin name="GPIO26" x="-15.24" y="-22.86" length="short" direction="nc"/>
-<pin name="GPIO27" x="-15.24" y="10.16" length="short"/>
-<pin name="ID_SC" x="15.24" y="-33.02" length="short" direction="nc" rot="R180"/>
-<pin name="ID_SD" x="15.24" y="-35.56" length="short" direction="nc" rot="R180"/>
+<pin name="GPIO04" x="-15.24" y="-2.54" length="short"/>
+<pin name="TXD" x="15.24" y="-25.4" length="short" rot="R180"/>
+<pin name="RXD" x="15.24" y="-27.94" length="short" rot="R180"/>
+<pin name="SPI_MOSI" x="15.24" y="15.24" length="short" rot="R180"/>
+<pin name="SPI_MISO" x="15.24" y="12.7" length="short" rot="R180"/>
+<pin name="SPI_SCLK" x="15.24" y="10.16" length="short" rot="R180"/>
+<pin name="SPI_CE0" x="15.24" y="7.62" length="short" rot="R180"/>
+<pin name="SPI_CE1" x="15.24" y="5.08" length="short" rot="R180"/>
 <pin name="N.C.0" x="15.24" y="0" length="short" direction="nc" rot="R180"/>
 <pin name="N.C.1" x="15.24" y="-2.54" length="short" direction="nc" rot="R180"/>
 <pin name="N.C.2" x="15.24" y="-5.08" length="short" direction="nc" rot="R180"/>
 <pin name="N.C.3" x="15.24" y="-7.62" length="short" direction="nc" rot="R180"/>
 <pin name="N.C.4" x="15.24" y="-10.16" length="short" direction="nc" rot="R180"/>
 <pin name="N.C.5" x="15.24" y="-12.7" length="short" direction="nc" rot="R180"/>
+<text x="13.97" y="17.78" size="1.778" layer="97" ratio="10">Model B+</text>
+<pin name="ID_SC" x="15.24" y="-33.02" length="short" direction="nc" rot="R180"/>
+<pin name="ID_SD" x="15.24" y="-35.56" length="short" direction="nc" rot="R180"/>
+<pin name="GPIO05" x="-15.24" y="-7.62" length="short" direction="nc"/>
+<pin name="GPIO06" x="-15.24" y="-10.16" length="short" direction="nc"/>
+<pin name="GPIO12" x="-15.24" y="-12.7" length="short" direction="nc"/>
+<pin name="GPIO13" x="-15.24" y="-15.24" length="short" direction="nc"/>
+<pin name="GPIO19" x="-15.24" y="-17.78" length="short" direction="nc"/>
+<pin name="GPIO16" x="-15.24" y="-20.32" length="short" direction="nc"/>
+<pin name="GPIO26" x="-15.24" y="-22.86" length="short" direction="nc"/>
+<pin name="GPIO20" x="-15.24" y="-25.4" length="short" direction="nc"/>
+<pin name="GPIO21" x="-15.24" y="-27.94" length="short" direction="nc"/>
 <pin name="N.C.6" x="15.24" y="-15.24" length="short" direction="nc" rot="R180"/>
 <pin name="N.C.7" x="15.24" y="-17.78" length="short" direction="nc" rot="R180"/>
 <pin name="N.C.8" x="15.24" y="-20.32" length="short" direction="nc" rot="R180"/>
-<pin name="RXD" x="15.24" y="-27.94" length="short" rot="R180"/>
-<pin name="SCL" x="-15.24" y="-33.02" length="short"/>
-<pin name="SDA" x="-15.24" y="-35.56" length="short"/>
-<pin name="SPI_CE0" x="15.24" y="7.62" length="short" rot="R180"/>
-<pin name="SPI_CE1" x="15.24" y="5.08" length="short" rot="R180"/>
-<pin name="SPI_MISO" x="15.24" y="12.7" length="short" rot="R180"/>
-<pin name="SPI_MOSI" x="15.24" y="15.24" length="short" rot="R180"/>
-<pin name="SPI_SCLK" x="15.24" y="10.16" length="short" rot="R180"/>
-<pin name="TXD" x="15.24" y="-25.4" length="short" rot="R180"/>
-<text x="13.97" y="22.86" size="1.778" layer="97" ratio="10">Raspberry Pi</text>
-<text x="13.97" y="20.32" size="1.778" layer="97" ratio="10">GPIO Port</text>
-<text x="13.97" y="17.78" size="1.778" layer="97" ratio="10">Model B+</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5590,6 +5590,37 @@ Model B+ &amp;nbsp; with 9 &amp;quot;not connected&amp;quot; pins</description>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<wire x1="73.66" y1="86.36" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
+<label x="83.82" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="73.66" y1="83.82" x2="83.82" y2="83.82" width="0.1524" layer="91"/>
+<label x="83.82" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="73.66" y1="78.74" x2="83.82" y2="78.74" width="0.1524" layer="91"/>
+<label x="83.82" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="N.C.5"/>
+<wire x1="76.2" y1="76.2" x2="83.82" y2="76.2" width="0.1524" layer="91"/>
+<label x="83.82" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="N.C.6"/>
+<wire x1="76.2" y1="73.66" x2="83.82" y2="73.66" width="0.1524" layer="91"/>
+<label x="83.82" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="73.66" y1="71.12" x2="83.82" y2="71.12" width="0.1524" layer="91"/>
+<label x="83.82" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="N.C.8"/>
+<wire x1="76.2" y1="68.58" x2="83.82" y2="68.58" width="0.1524" layer="91"/>
+<label x="83.82" y="68.58" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -5621,6 +5652,10 @@ Model B+ &amp;nbsp; with 9 &amp;quot;not connected&amp;quot; pins</description>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <wire x1="66.04" y1="116.84" x2="66.04" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="3V3"/>
+</segment>
+<segment>
+<wire x1="73.66" y1="81.28" x2="83.82" y2="81.28" width="0.1524" layer="91"/>
+<label x="83.82" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -5882,8 +5917,13 @@ Model B+ &amp;nbsp; with 9 &amp;quot;not connected&amp;quot; pins</description>
 </net>
 <net name="GPIO_26" class="0">
 <segment>
-<wire x1="45.72" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="JP5" gate="A" pin="9"/>
+<wire x1="243.84" y1="76.2" x2="226.06" y2="76.2" width="0.1524" layer="91"/>
+<label x="226.06" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="U$1" gate="G$1" pin="GPIO26"/>
+<wire x1="45.72" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO_19" class="0">
@@ -5974,11 +6014,10 @@ Model B+ &amp;nbsp; with 9 &amp;quot;not connected&amp;quot; pins</description>
 <label x="167.64" y="144.78" size="1.778" layer="95"/>
 <pinref part="JP6" gate="A" pin="2"/>
 </segment>
-</net>
-<net name="N$14" class="0">
 <segment>
-<pinref part="JP5" gate="A" pin="9"/>
-<wire x1="243.84" y1="76.2" x2="226.06" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="N.C.0"/>
+<wire x1="76.2" y1="88.9" x2="83.82" y2="88.9" width="0.1524" layer="91"/>
+<label x="83.82" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
